@@ -27,10 +27,10 @@ profile.addEventListener("click" ,()=>{
 });
 
 login.addEventListener("click",()=>{
-    window.location.href="../login";
+    window.location.href="../login/index.html";
 });
 
 signup.addEventListener("click",()=>{
-    window.location.href="../Sign-up";
+    window.location.href="../Sign-up/index.html";
 });
 
