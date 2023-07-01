@@ -28,7 +28,7 @@ loginbtn.addEventListener("click", (e) => {
                     setTimeout(() => {
                         msg.innerHTML = "";
                     }, 3000);
-                    window.location.href = "../shop";
+                    window.location.href = "../shop/index.html";
                     
                     // alert("log in successfull");
                 }
@@ -47,7 +47,7 @@ loginbtn.addEventListener("click", (e) => {
                 setTimeout(() => {
                     msg.innerHTML = "";
                 }, 3000);
-                window.location.href = "../Sign-up";
+                window.location.href = "../Sign-up/index.html";
                 // alert("user does not exist");
             }
         }

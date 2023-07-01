@@ -56,7 +56,7 @@ setTimeout(()=>{
     msg.innerHTML="";
    },3000);
 setTimeout(()=>{
-    window.location.href="../login/";
+    window.location.href="../login/index.html";
    },3000);
 // alert("Sign-up Successfull");
 
@@ -114,5 +114,5 @@ submitbtn.addEventListener("click",(e)=>{
 });
 
 redirectToLogin.addEventListener("click", ()=>{
-window.location.href ="../login";
+window.location.href ="../login/index.html";
 });
